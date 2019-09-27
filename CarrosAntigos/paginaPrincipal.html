@@ -47,11 +47,69 @@
 	}
 
 	article {
-
 			text-align: center;
 			width: 100%;
 	}
 
+	.slide {
+		display: block;
+     	height: 480px;
+   		width: 840px;
+    	margin: auto;
+    	margin-top: 20px;
+    	position: relative;
+	}
+
+	.slide li{
+		list-style: none;
+		position: absolute;
+	}
+
+	.slide img{
+		margin: auto;
+    	height: 100%;
+   		width: 100%;
+     	vertical-align: top;
+	}
+
+	.slide input{
+		display: none
+	}
+
+	.slide label{
+		background-color: black;
+	    bottom: 10px;
+	    cursor: pointer;
+    	display: block;
+	    height: 10px;
+	    position: absolute;
+	    width: 10px;
+   		z-index: 10;
+	}
+
+	.slide li:nth-child(1) label{
+		left: 10px;
+	}
+	.slide li:nth-child(2) label{
+		left: 40px;
+	}
+	.slide li:nth-child(3) label{
+		left: 70px;
+	}
+	.slide li:nth-child(4) label{
+		left: 100px;
+	}
+
+	.slide img{
+		opacity: 0;
+		visibility: hidden;
+	}
+
+	.slide li input:checked ~ img{
+		opacity: 1;
+		visibility: visible;
+		z-index: 10;
+	}
 	</style>
 	</head>
 
@@ -70,33 +128,41 @@
 		      <a href="paginaEmpresa.html" target = "_self" >Empresa</a>
 		      <a href="paginaContato.html" target = "_self" >Contato</a>
 		</nav>
-
+		<main>
 		<section>
-			<p>Bem vindo ao Gold's - o melhor site para entusiastas de carros clássicos de todo o país!</p>
-
-			<h1>Garagem</h1>
+			<p>Bem vindo ao Gold's - o melhor site para entusiastas de carros clássicos de todo o país! <br><br>
+			<b>Procurando algum veículo específico? Veja alguns dos veículos mais procurados:</b></p>
 		</section>
 
 		<article>
-		    
-		    <a href="carros/paginaMercuryCougar.html" target = "_self" ><img src="img/mercurycougar1970.jpg" alt="Mercury Cougar XR-7" width="352" height="201"></a>
-		    <h1>Mercury Cougar XR-7</h1>
-		    <h3>1970</h3>
 
-		    <a href="carros/paginaChevroletCamaro.html" target = "_self" ><img src="img/camaross.jpg" alt="Chevrolet Camaro SS " width="352" height="201"></a>
-		    <h1>Chevrolet Camaro SS</h1>
-		    <h3>1968</h3>
+		<ul class="slide">
+			<li>
+			<input type="radio" id="slide1" name="slider" checked>
+			<label for="slide1"></label>
+		    <img src="img/mercurycougar1970.jpg"/>
+			</li>
+			<li>
+			<input type="radio" id="slide2" name="slider">
+			<label for="slide2"></label>
+		    <img src="img/camaross.jpg"/>
+			</li>
+			<li>
+			<input type="radio" id="slide3" name="slider">
+			<label for="slide3"></label>
+		    <img src="img/pontiaccatalina.jpg"/>
+			</li>
+		    <li>
+		    <input type="radio" id="slide4" name="slider">
+			<label for="slide4"></label>
+		    <img src="img/shelbycobra.jpg"/>
+			</li>
+		</ul>
+		<br>
 
-			<a href="carros/paginaPontiacCatalina.html" target = "_self"><img src="img/pontiaccatalina.jpg" alt="Pontiac Catalina" width="352" height="201"></a>
-		    <h1>Pontiac Catalina</h1>
-		    <h3>1969</h3>
-
-		    <a href="carros/paginaShelbyCobra.html" target = "_self"><img src="img/shelbycobra.jpg" alt="Shelby Cobra" width="352" height="201"></a>
-		    <h1>Shelby Cobra</h1>
-		    <h3>1965</h3>
 		</article>
 		
-
+</main>
 		<footer>
 		  <pre> Copyright © [G]old's. Todos os direitos reservados.										Powered by disconnected.com VIP </pre>
 		</footer>

@@ -1,5 +1,6 @@
 header {
-			background-color: #191919;
+			background-image: url("img/back.jpg");
+			background-position: 450px;
   			padding: 20px;
  			text-align: center;
  			font-size: 30px;
@@ -9,7 +10,7 @@ header {
 
 	nav, footer {
 			text-align: center;
-			background: #191919;
+			background: rgb(43,47,56);
 			width: 100%;
 			padding: 20px;
 			color: white;
@@ -35,7 +36,7 @@ header {
 	}
 .nav {
   overflow: hidden;
-  background-color: #333;
+  background-color: rgb(43,47,56);
 }
 .nav a {
   float: center;
@@ -51,7 +52,7 @@ header {
   color: white;
 }
 .nav a.active {
-  background-color: #4CAF50;
+  background-color: #ffcc33;
   color: white;
 }
 
@@ -75,5 +76,8 @@ header {
 }
 
 h2 {
-	color: gold;
+	color: #ffcc33;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	text-shadow: 4px 2px black;
 }

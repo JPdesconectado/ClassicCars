@@ -33,7 +33,7 @@ header {
 }
 .nav a {
   float: center;
-  color: #f2f2f2;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -41,9 +41,23 @@ header {
 }
 .nav a:hover {
   background-color: #ddd;
-  color: black;
+  color: white;
 }
 .nav a.active {
   background-color: #4CAF50;
   color: white;
+}
+
+.link {
+	overflow: hidden;
+
+}
+
+.link a {
+	  float: center;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }

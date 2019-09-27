@@ -1,0 +1,28 @@
+header {
+			background-color: #191919;
+  			padding: 20px;
+ 			text-align: center;
+ 			font-size: 30px;
+  			color: white;
+	}
+
+	nav, footer {
+			text-align: center;
+			background: #191919;
+			width: 97.6%;
+			padding: 20px;
+			color: white;
+			text-transform: uppercase;
+			font-weight: bold;
+	}
+
+	section{
+			text-align: center;
+			width: 100%;	
+
+	}
+
+	article {
+			text-align: center;
+			width: 100%;
+	}

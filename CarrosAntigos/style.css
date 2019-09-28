@@ -1,6 +1,7 @@
 header {
 			background-image: url("img/back.jpg");
-			background-position: 450px;
+			background-origin: content-box;
+			background-position: center; 
   			padding: 20px;
  			text-align: center;
  			font-size: 30px;
@@ -11,6 +12,8 @@ header {
 	nav, footer {
 			text-align: center;
 			background: rgb(43,47,56);
+			background-origin: content-box;
+ 			background-position: center;
 			width: 100%;
 			padding: 20px;
 			color: white;
@@ -20,26 +23,24 @@ header {
 
 	section{
 			text-align: center;
-			font-family: "Verdana";
+			font-family: "Open Sans";
 			width: 100%;	
 
 	}
 
 	article {
-			font-family: "Verdana";
+			font-family: "Open Sans";
 			text-align: center;
-			width: 100%;
 	}
 
 	pre {
-		font-family: "Verdana";
+		font-family: "Open Sans";
 	}
 .nav {
-  overflow: hidden;
   background-color: rgb(43,47,56);
 }
 .nav a {
-  float: center;
+  float: inherit;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -62,7 +63,7 @@ header {
 }
 
 .link a {
-	  float: center;
+  float: inherit;
   color: black;
   text-align: center;
   padding: 14px 16px;
@@ -81,3 +82,4 @@ h2 {
 	letter-spacing: 3px;
 	text-shadow: 4px 2px black;
 }
+

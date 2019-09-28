@@ -1,7 +1,9 @@
 .slide {
 		display: block;
-     	height: 480px;
+		height: 480px;
    		width: 840px;
+		max-width: initial;
+		max-height: initial;
     	margin: auto;
     	margin-top: 20px;
     	position: relative;

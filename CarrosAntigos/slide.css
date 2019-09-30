@@ -2,8 +2,8 @@
 		display: block;
 		height: 480px;
    		width: 840px;
-		max-width: initial;
-		max-height: initial;
+		max-width: 100%;
+		max-height: ;
     	margin: auto;
     	margin-top: 20px;
     	position: relative;

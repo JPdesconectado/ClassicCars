@@ -35,6 +35,7 @@ header {
 
 	pre {
 		font-family: "Open Sans";
+		overflow: auto;
 	}
 .nav {
   background-color: rgb(43,47,56);

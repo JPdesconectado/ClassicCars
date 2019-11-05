@@ -48,11 +48,28 @@
 			<h2>[G]old's</h2>
 		</header>
 
-		<nav class="nav">
-		      <a href="paginaPrincipal.html" target = "_self" >Home</a>
-		      <a href="paginaVeiculos.html" target = "_self" >Veículos</a>
-		      <a class="active" href="paginaEmpresa.html" target = "_self" >Empresa</a>
-		      <a href="paginaContato.html" target = "_self" >Contato</a>
+		<nav class="navbar justify-content-center">
+			<ul class="nav nav-tabs">
+				<li class="nav-item">
+		      <a class="nav-link" href="paginaPrincipal.html" target = "_self" >Home</a>
+		  		</li>
+		  		<li class="nav-item dropdown bg-dark navbar-dark">
+		      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="paginaVeiculos.html" target = "_self" >Veículos</a>
+		      <div class="dropdown-menu">
+		      	<a class="dropdown-item" href="paginaVeiculos.html">Todos</a>
+		      	<a class="dropdown-item" href="carros/paginaMercuryCougar.html">Ford</a>
+		      	<a class="dropdown-item" href="carros/paginaChevroletCamaro.html">Chevrolet</a>
+		      	<a class="dropdown-item" href="carros/paginaPontiacCatalina.html">Pontiac</a>
+		      	<a class="dropdown-item" href="carros/paginaShelbyCobra.html">Shelby</a>
+		      	<a class="dropdown-item" href="carros/paginaCadillacEldorado.html">Cadillac</a>
+		      </div>
+		  		</li>
+		  		<li class="nav-item">
+		      <a class="nav-link active" href="paginaEmpresa.html" target = "_self" >Empresa</a>
+		  </li>
+		  <li class="nav-item">
+		      <a class="nav-link" href="paginaContato.html" target = "_self" >Contato</a>
+		  </li>
 		</nav>
 
 		<section>
@@ -67,14 +84,51 @@
 		encontrarem o <ins>clássico dos seu sonhos</ins>.
 		<mark>Quem é apaixonado por antigos não pode deixar de negociar e conhecer os veículos da <sup>[G]old's.</sup></mark> <i class="fas fa-thumbs-up"></i>
 		</pre>
+		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+			Funcionários
+		</button>
+		<div class="modal" id="myModal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+		<div class="modal-header">
+			<h4 class="modal-title">Quem faz?</h4>
+			<button type="button" class="close" data-dismiss="modal">&times;</button>
+		</div>
 
+		<div class="modal-body">
+			<h2> Gerente </h2>
+			<div class="card">
+				<img class="card-img-top" src="img/gerente.jpg" alt="Thiagão" style="width:100%">
+				<div class="card-body">
+					<h4 class="card-title">Rubinho</h4>
+					<p class="card-text"> Trabalhando Muito</p>
+				<a href="#" data-toggle="popover" title="Informação" data-content="Imagem meramente ilustrativa">Informação</a>
+</div>
+			</div>
+			</div>
+		</div>
+
+		<div class="modal-footer">
+			<button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+		</div>
+	</div>
+</div>
+</div>
+		<br>
+		<br>
 		<img class="img-fluid" title = "Mercury Cougar" src="img/capaempresa.jpg" alt="Fotografia de um carro amarelo com o teto preto, rodas de corrida da marca firestone, calota prateada, da marca Mercury, uma subdivisão da ford, o modelo conhecido como Cougar, do ano 1970. Ao fundo vemos pinheiros e várias vegetações diferentes, com um protótipo de trem com uma roda de metal vermelha.">
 		</article>
 		
 
+
 		<footer> Copyright © [G]old's. Todos os direitos reservados. <br /> Powered by disconnected.com VIP </footer>
 
 
+<script>
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();   
+});
+</script>
 
 	</body>
 

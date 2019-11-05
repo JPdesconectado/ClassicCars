@@ -42,20 +42,24 @@ header {
 }
 .nav a {
   float: inherit;
-  color: white;
+  color: gold;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-
+  background-color: rgb(43,47,56);
   font-size: 17px;
+}
+.nav a.active {
+  background-color: rgb(43,47,56);
+  color: black;
 }
 .nav a:hover {
   background-color: #ddd;
   color: white;
 }
-.nav a.active {
-  background-color: #ffcc33;
-  color: white;
+
+.dropdown-item{
+	color: rgb(43,47,56);
 }
 
 .link {

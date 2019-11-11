@@ -87,7 +87,6 @@ h2 {
 	letter-spacing: 3px;
 	text-shadow: 4px 2px black;
 }
-
 body {
-	margin: auto;
+	width: 100%;
 }

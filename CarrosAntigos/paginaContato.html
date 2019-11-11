@@ -2,119 +2,142 @@
 
 <html lang="pt-br">
 
-	<head>
+<head>
 
-		<!-- meta tags -->
-		<meta charset="utf-8" />
-		<meta name="description" content= "Acompanhe em [G]old's as últimas e principais notícias sobre carros antigos. Análises e opinião e muito mais." />
-		<meta name="keywords" content="carros, antigos, chevrolet, fiat, ford, dodge, volkswagen, ferrari, mercedes-benz, rolls-royce, shelby" />
-		<meta name="author" content="Jhony P. do Vale and Rubens G. dos Santos" />
-		<meta name="robots" content="index,follow" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- meta tags -->
+	<meta charset="utf-8" />
+	<meta name="description" content= "Acompanhe em [G]old's as últimas e principais notícias sobre carros antigos. Análises e opinião e muito mais." />
+	<meta name="keywords" content="carros, antigos, chevrolet, fiat, ford, dodge, volkswagen, ferrari, mercedes-benz, rolls-royce, shelby" />
+	<meta name="author" content="Jhony P. do Vale and Rubens G. dos Santos" />
+	<meta name="robots" content="index,follow" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-		<!-- icone -->
-		<link rel="icon" href="img/icon.ico" />
+	<!-- icone -->
+	<link rel="icon" href="img/icon.ico" />
 
-		<!-- fonte -->
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+	<!-- fonte -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 
-		<!-- importando css -->
-		<link rel="stylesheet" type="text/css" href="style.css" />
+	<!-- importando css -->
+	<link rel="stylesheet" type="text/css" href="style.css" />
 
-		<!-- Importando Bootstrap -->
+	<!-- Importando Bootstrap -->
 
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
-		<!-- jQuery library -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-		<!-- Popper JS -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 
-		<!-- Latest compiled JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
-		
-		<!-- titulo -->
-		<title>[G]old's</title>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
+	
+	<!-- titulo -->
+	<title>[G]old's</title>
 
-	</head>
-
-
-
-	<!-- Body do Projeto -->
-	<body>
-		
-		<header>
-			<h2>[G]old's</h2>
-		</header>
-
-		<nav class="navbar justify-content-center">
-			<ul class="nav nav-tabs">
-				<li class="nav-item">
-		      <a class="nav-link" href="paginaPrincipal.html" target = "_self" >Home</a>
-		  		</li>
-		  		<li class="nav-item dropdown bg-dark navbar-dark">
-		      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="paginaVeiculos.html" target = "_self" >Veículos</a>
-		      <div class="dropdown-menu">
-		      	<a class="dropdown-item" href="paginaVeiculos.html">Todos</a>
-		      	<a class="dropdown-item" href="carros/paginaMercuryCougar.html">Ford</a>
-		      	<a class="dropdown-item" href="carros/paginaChevroletCamaro.html">Chevrolet</a>
-		      	<a class="dropdown-item" href="carros/paginaPontiacCatalina.html">Pontiac</a>
-		      	<a class="dropdown-item" href="carros/paginaShelbyCobra.html">Shelby</a>
-		      	<a class="dropdown-item" href="carros/paginaCadillacEldorado.html">Cadillac</a>
-		      </div>
-		  		</li>
-		  		<li class="nav-item">
-		      <a class="nav-link" href="paginaEmpresa.html" target = "_self" >Empresa</a>
-		  </li>
-		  <li class="nav-item">
-		      <a class="nav-link active" href="paginaContato.html" target = "_self" >Contato</a>
-		  </li>
-		</nav>
-
-		<section>
-			<h1>Entre em contato conosco</h1>
-		</section>
-
-		<article>
-		    <h4>Envie sua mensagem:</h4>
-		   <form action="paginaPrincipal.html" class="was-validated">
-		   	<div class="form-group">
-		   		<label for="usuario">Usuário:</label>
-		   		<input type="text" class="form-control" id="usuario" placeholder="Nome" name="usuario" required>
-		   		<div class="valid-feedback">Válido.</div>
-   				 <div class="invalid-feedback">Obrigatório.</div>
-  			</div>
-  			<div class="form-group">
-		   		<label for="email">E-Mail:</label>
-		   		<input type="text" class="form-control" id="email" placeholder="E-mail" name="email" required>
-		   		<div class="valid-feedback">Válido.</div>
-   				 <div class="invalid-feedback">Obrigatório.</div>
-  			</div>
-
-  			<div class="form-group">
-		   		<label for="assunto">Assunto:</label>
-		   		<input type="text" class="form-control" id="assunto" placeholder="Assunto" name="assunto" required>
-		   		<div class="valid-feedback">Válido.</div>
-   				 <div class="invalid-feedback">Obrigatório.</div>
-  			</div>
-		   <div class="form-group">
-		   	<label for="comentario">Comentário:</label>
-		   	<div class="valid-feedback">Válido.</div>
-   			<div class="invalid-feedback">Obrigatório.</div>
-		   	<textarea class="form-control" rows="5" id="comentario" placeholder="Comentário" name="comentario" required></textarea>
-		   </div>	
-		   <button type="submit" class="btn btn-primary" onclick="alert('Obrigado pela mensagem!')">Enviar</button>
-		</form>
-		<br>
-		</article>
-		
-
-		<footer> Copyright © [G]old's. Todos os direitos reservados. <br /> Powered by disconnected.com VIP </footer>
+</head>
 
 
 
-	</body>
+<!-- Body do Projeto -->
+<body>
+	<div class="container-fluid-no-margin">
+
+
+		<div class="row">
+			<div class="col">
+				<header>
+					<h2>[G]old's</h2>
+				</header>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col">
+				<nav class="navbar justify-content-center">
+					<ul class="nav nav-tabs">
+						<li class="nav-item">
+							<a class="nav-link" href="paginaPrincipal.html" target = "_self" >Home</a>
+						</li>
+						<li class="nav-item dropdown bg-dark navbar-dark">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="paginaVeiculos.html" target = "_self" >Veículos</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="paginaVeiculos.html">Todos</a>
+								<a class="dropdown-item" href="carros/paginaMercuryCougar.html">Ford</a>
+								<a class="dropdown-item" href="carros/paginaChevroletCamaro.html">Chevrolet</a>
+								<a class="dropdown-item" href="carros/paginaPontiacCatalina.html">Pontiac</a>
+								<a class="dropdown-item" href="carros/paginaShelbyCobra.html">Shelby</a>
+								<a class="dropdown-item" href="carros/paginaCadillacEldorado.html">Cadillac</a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="paginaEmpresa.html" target = "_self" >Empresa</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" href="paginaContato.html" target = "_self" >Contato</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col">
+				<section>
+					<h1>Entre em contato conosco</h1>
+				</section>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col">
+				<article>
+					<h4>Envie sua mensagem:</h4>
+					<form action="paginaPrincipal.html" class="was-validated">
+						<div class="form-group">
+							<label for="usuario">Usuário:</label>
+							<input type="text" class="form-control" id="usuario" placeholder="Nome" name="usuario" required>
+							<div class="valid-feedback">Válido.</div>
+							<div class="invalid-feedback">Obrigatório.</div>
+						</div>
+						<div class="form-group">
+							<label for="email">E-Mail:</label>
+							<input type="text" class="form-control" id="email" placeholder="E-mail" name="email" required>
+							<div class="valid-feedback">Válido.</div>
+							<div class="invalid-feedback">Obrigatório.</div>
+						</div>
+
+						<div class="form-group">
+							<label for="assunto">Assunto:</label>
+							<input type="text" class="form-control" id="assunto" placeholder="Assunto" name="assunto" required>
+							<div class="valid-feedback">Válido.</div>
+							<div class="invalid-feedback">Obrigatório.</div>
+						</div>
+						<div class="form-group">
+							<label for="comentario">Comentário:</label>
+							<div class="valid-feedback">Válido.</div>
+							<div class="invalid-feedback">Obrigatório.</div>
+							<textarea class="form-control" rows="5" id="comentario" placeholder="Comentário" name="comentario" required></textarea>
+						</div> 
+						<button type="submit" class="btn btn-primary" onclick="alert('Obrigado pela mensagem!')">Enviar</button>
+					</form>
+					<br>
+				</article>
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="col">
+				<footer> Copyright © [G]old's. Todos os direitos reservados. <br /> Powered by disconnected.com VIP </footer>
+			</div>
+		</div>
+
+
+	</div>
+</body>
 
 </html>
